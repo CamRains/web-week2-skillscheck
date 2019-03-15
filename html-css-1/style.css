@@ -1,0 +1,88 @@
+body {
+  width: 100vw;
+  margin: 0 auto;
+  position: fixed;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 20px;
+  color: white;
+  margin-left: 40px;
+}
+#navibar {
+  height: 40px;
+  width: 100;
+  background: gray;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.navi-items {
+  display: inline;
+  margin-right: 35px;
+}
+#banner {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+#banner-text {
+  color: yellow;
+  font-size: 30px;
+}
+#green-squares {
+  display: flex;
+  justify-content: space-between;
+}
+.square {
+  height: 20vh;
+  width: 20vh;
+  background-color: turquoise;
+  margin: 10px;
+  border-radius: 10%;
+  margin: 20px 45px;
+}
+#orange-rectangles {
+  display: flex;
+  justify-content: space-evenly;
+}
+.rectangle {
+  height: 25vh;
+  width: 38vw;
+  background-color: orange;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+#text-picture {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  align-content: center;
+  border: solid blue;
+}
+.text {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+img {
+  height: 200px;
+  width: 300px;
+  margin-top: 50px;
+}
+.final {
+  height: 60px;
+  width: 100%;
+  background-color: purple;
+}

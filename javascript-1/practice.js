@@ -169,4 +169,4 @@ for (var i = 0; i < people.length; i++) {
 
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce and an arrow function
 
-// Code Here
+var totallyAwesome = people.reduce((acc, cur) => cur.awesomeLevel + acc, 0);
